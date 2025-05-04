@@ -11,12 +11,18 @@
 	--prata: 'Prata', 'Arial', sans-serif;
 
 	/* font-sizes */
-
+	/* header */
 	--link-size: 2.25rem;
 	--nav-link-size: 1rem;
-	--h1-size: 5rem;
-	--hero-description-size: 3.12rem;
+
+	/* hero */
+	--h1-size-big: 5rem;
+	--h1-size-small: 2.2rem;
+	--hero-description-size-big: 3.12rem;
+	--hero-description-size-small: 1.9rem;
 	--price-size: 2.5rem;
+	--price-size-small: 1.5rem;
+	--advantages-size-small: 1.1rem;
 
 	/* viewport */
 

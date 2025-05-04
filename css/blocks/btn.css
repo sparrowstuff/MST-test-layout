@@ -1,0 +1,23 @@
+.btn {
+	padding: 2.46rem 3.12rem 2.46rem 3.12rem;
+	max-width: 11.93rem;
+	background-color: var(--white);
+	border-radius: 0.25rem;
+
+	font-family: var(--arial);
+	font-weight: 700;
+	font-size: var(--hero-description-small);
+	line-height: 150%;
+	text-transform: uppercase;
+	color: var(--main-dark);
+
+	transition: background-color var(--transition-main),
+		color var(--transition-main);
+
+	&:hover,
+	&:focus-visible {
+		outline: unset;
+		background-color: var(--main-light);
+		color: var(--white);
+	}
+}

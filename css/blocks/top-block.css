@@ -1,10 +1,38 @@
 .top-block {
-	width: 100vw;
 	min-height: 63rem;
-
-	background-image: url('../../images/hero/hero-cyber-tech.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: right;
+	z-index: 1;
+	position: relative;
 	background-color: var(--main-dark);
+
+	@media (max-width: 48rem) {
+		min-height: unset;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background-image: url('../../images/hero/hero-cyber-tech.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position-x: right;
+		z-index: -1;
+		transition: opacity var(--transition-main);
+
+		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+
+		@media (max-width: 109.37rem) {
+			opacity: 0.4;
+		}
+
+		@media (max-width: 78.12rem) {
+			opacity: 0.2;
+			background-size: cover;
+			background-position: center;
+		}
+
+		@media (max-width: 48rem) {
+			opacity: 0.1;
+		}
+	}
 }
