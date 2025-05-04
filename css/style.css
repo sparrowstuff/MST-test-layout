@@ -1,0 +1,18 @@
+/* global */
+
+@import url('../css/global/visually-hidden.css');
+@import url('../css/global/normalize.css');
+@import url('../css/global/reboot.css');
+@import url('../css/global/variables.css');
+@import url('../css/global/fonts.css');
+@import url('../css/global/container.css');
+
+/* blocks */
+@import url('../css/blocks/top-block.css');
+@import url('../css/blocks/header.css');
+@import url('../css/blocks/main-link.css');
+@import url('../css/blocks/main-nav.css');
+@import url('../css/blocks/burger-menu.css');
+@import url('../css/blocks/transform.css');
+@import url('../css/blocks/show-nav-menu.css');
+@import url('../css/blocks/hero.css');

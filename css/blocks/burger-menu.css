@@ -1,0 +1,24 @@
+.burger-menu {
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.83rem;
+	cursor: pointer;
+	background-color: transparent;
+
+	@media (min-width: 48rem) {
+		display: none;
+	}
+}
+
+.burger-menu__top-line,
+.burger-menu__main-line,
+.burger-menu__bottom-line {
+	width: 100%;
+	background-color: var(--white);
+	border-radius: 50%;
+	display: block;
+	height: 0.12rem;
+	transition: transform var(--transition-main), opacity var(--transition-main);
+}

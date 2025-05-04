@@ -1,0 +1,10 @@
+.top-block {
+	width: 100vw;
+	min-height: 63rem;
+
+	background-image: url('../../images/hero/hero-cyber-tech.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: right;
+	background-color: var(--main-dark);
+}

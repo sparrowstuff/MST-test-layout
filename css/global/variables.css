@@ -1,0 +1,29 @@
+:root {
+	/* colors */
+
+	--white: #ffffff;
+	--main: #282829;
+	--main-light: #38535d;
+	--main-dark: #222222;
+
+	/* fonts */
+	--arial: 'Arial', sans-serif;
+	--prata: 'Prata', 'Arial', sans-serif;
+
+	/* font-sizes */
+
+	--link-size: 2.25rem;
+	--nav-link-size: 1rem;
+	--h1-size: 5rem;
+	--hero-description-size: 3.12rem;
+	--price-size: 2.5rem;
+
+	/* viewport */
+
+	--tablet-view: 48rem;
+	--mobile-view: 25rem;
+
+	/* transition */
+
+	--transition-main: 0.3s ease-in;
+}

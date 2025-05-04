@@ -1,0 +1,17 @@
+.header {
+	padding: 1.56rem 0 1.56rem;
+	position: fixed;
+	inset: 0;
+	z-index: 999;
+}
+
+.header__main {
+	display: flex;
+	align-items: center;
+	gap: min(10vw, 12.81rem);
+	position: relative;
+
+	@media (max-width: 48rem) {
+		justify-content: space-between;
+	}
+}
