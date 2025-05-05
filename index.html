@@ -24,12 +24,17 @@
 							<span class="main-link__text">Security</span></a
 						>
 						<nav class="main-nav">
-							<a class="main-nav__link" href="#" name="About Us">About Us</a>
-							<a class="main-nav__link" href="#" name="Advantages"
+							<a class="main-nav__link" href="#about" name="About Us"
+								>About Us</a
+							>
+							<a class="main-nav__link" href="#advantages" name="Advantages"
 								>Advantages</a
 							>
 							<a class="main-nav__link" href="#" name="Sign Up"
 								>Data Protection</a
+							>
+							<a class="main-nav__link" href="#subscribe" name="Sign Up"
+								>Subscribe</a
 							>
 						</nav>
 						<button
@@ -53,7 +58,7 @@
 					</div>
 				</div>
 			</header>
-			<section class="hero">
+			<section class="hero" id="about">
 				<div class="container">
 					<div class="hero__main">
 						<div class="hero__heading">
@@ -110,7 +115,7 @@
 				</div>
 			</section>
 		</article>
-		<section class="advantages-banner">
+		<section class="advantages-banner" id="advantages">
 			<div class="advantages-banner__main">
 				<picture class="advantages-banner__picture-1">
 					<source
@@ -212,5 +217,181 @@
 				</picture>
 			</div>
 		</section>
+		<article class="subscription-form" id="subscribe">
+			<div class="container">
+				<h2 class="visually-hidden">Subscription form</h2>
+				<form class="subscription-form__form" action="#" method="post">
+					<div class="subscription-form__main">
+						<legend class="subscription-form__title">
+							Subscribe to our News Letter
+						</legend>
+						<div class="subscription-form__inner">
+							<div class="subscription-form__input-block">
+								<div class="custom-input">
+									<input
+										type="text"
+										class="custom-input__field"
+										placeholder="Name"
+										required
+										id="name-input"
+										name="name-input"
+									/>
+								</div>
+								<div class="custom-input">
+									<input
+										type="email"
+										class="custom-input__field"
+										placeholder="E-mail"
+										required
+										id="email-input"
+										name="email-input"
+									/>
+								</div>
+							</div>
+							<div class="custom-checkbox">
+								<input
+									class="custom-checkbox__field"
+									type="checkbox"
+									checked
+									id="privacy-checkbox"
+									name="privacy-checkbox"
+								/>
+								<label for="privacy-checkbox" class="custom-checkbox__label"
+									>I&nbsp;accept Privacy policy</label
+								>
+							</div>
+							<button
+								class="subscription-form__submit-btn btn btn--grey"
+								type="submit"
+							>
+								Sumbit form
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</article>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__main">
+					<nav class="main-nav main-nav--footer">
+						<a class="main-nav__link" href="#about" name="About Us">About Us</a>
+						<a class="main-nav__link" href="#advantages" name="Advantages"
+							>Advantages</a
+						>
+						<a class="main-nav__link" href="#" name="Sign Up"
+							>Data Protection</a
+						>
+						<a class="main-nav__link" href="#subscribe" name="Sign Up"
+							>Subscribe</a
+						>
+					</nav>
+					<div class="footer__inner">
+						<div class="footer__top-menu">
+							<div class="footer__links-block">
+								<a
+									class="footer__main-link main-link"
+									href="#"
+									aria-label="Go to Main Page"
+								>
+									<span class="main-link__text">Security</span></a
+								>
+							</div>
+							<ul class="socials">
+								<li class="socials__item">
+									<a href="#" class="socials__link" aria-label="Our Instagram"
+										><svg
+											class="socials__icon"
+											width="32"
+											height="32"
+											aria-hidden="true"
+										>
+											<use xlink:href="images/sprite.svg#instagram-icon"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link" aria-label="Our TikTok"
+										><svg
+											class="socials__icon"
+											width="32"
+											height="32"
+											aria-hidden="true"
+										>
+											<use xlink:href="images/sprite.svg#tik-tok-icon"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link" aria-label="Our LinkedIn"
+										><svg
+											class="socials__icon"
+											width="32"
+											height="32"
+											aria-hidden="true"
+										>
+											<use xlink:href="images/sprite.svg#linked-in-icon"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link" aria-label="Our Facebook"
+										><svg
+											class="socials__icon"
+											width="32"
+											height="32"
+											aria-hidden="true"
+										>
+											<use xlink:href="images/sprite.svg#facebook-icon"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link" aria-label="Our Telegram"
+										><svg
+											class="socials__icon"
+											width="32"
+											height="32"
+											aria-hidden="true"
+										>
+											<use xlink:href="images/sprite.svg#telegram-icon"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link" aria-label="Our YouTube"
+										><svg
+											class="socials__icon"
+											width="32"
+											height="32"
+											aria-hidden="true"
+										>
+											<use xlink:href="images/sprite.svg#youtube-icon"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+							<button class="footer__btn btn" type="button">Order</button>
+						</div>
+						<div class="footer__bottom-menu">
+							<span class="footer__licence">&copy;&nbsp;2024, Copyright</span>
+							<a
+								class="footer__privacy-link"
+								href="#"
+								aria-label="See the Privacy policy"
+								>Privacy policy</a
+							>
+							<a
+								class="footer__terms-link"
+								href="#"
+								aria-label="See the Terms of Use"
+								>Terms of Use</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="footer__terms"></div>
+			</div>
+		</footer>
 	</body>
 </html>

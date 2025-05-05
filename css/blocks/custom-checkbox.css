@@ -1,0 +1,38 @@
+.custom-checkbox,
+.custom-checkbox__field,
+.custom-checkbox__label {
+	cursor: pointer;
+}
+
+.custom-checkbox {
+	max-width: 14.37rem;
+
+	&:hover,
+	&:focus-visible,
+	&:focus-within {
+		.custom-checkbox__field {
+			scale: 1.2;
+		}
+
+		.custom-checkbox__label {
+			color: var(--main-dark);
+		}
+	}
+}
+
+.custom-checkbox__field {
+	transition: scale var(--transition-main);
+}
+
+.custom-checkbox__label {
+	font-family: var(--arial);
+	color: var(--main-light);
+	font-size: var(--checkbox-text-size);
+	line-height: 130%;
+
+	transition: color var(--transition-main);
+
+	@media (max-width: 48rem) {
+		color: var(--main-dark);
+	}
+}

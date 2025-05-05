@@ -21,3 +21,8 @@
 		color: var(--white);
 	}
 }
+
+.btn--grey {
+	color: var(--white);
+	background-color: var(--main-dark);
+}

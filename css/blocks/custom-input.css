@@ -1,0 +1,43 @@
+.custom-input {
+	width: 40vw;
+
+	@media (min-width: 143.75rem) {
+		width: 30vw;
+	}
+
+	@media (max-width: 64rem) {
+		width: clamp(17rem, 48vw, 75rem);
+	}
+
+	&:hover,
+	&:focus-visible,
+	&:focus-within {
+		.custom-input__field {
+			outline: 1px solid var(--main-dark);
+		}
+	}
+}
+
+.custom-input__field {
+	&::placeholder {
+		font-size: var(--input-size);
+		color: var(--main-light);
+		line-height: 150%;
+		font-family: var(--arial);
+		opacity: 0.7;
+	}
+
+	font-size: var(--input-size);
+	color: var(--main-dark);
+	line-height: 150%;
+
+	padding: 0.9rem 2.5rem 0.9rem 2.5rem;
+	width: 100%;
+	outline: 1px solid var(--grey);
+
+	transition: outline var(--transition-main);
+
+	@media (max-width: 48rem) {
+		padding: 0.9rem 1rem 0.9rem 1rem;
+	}
+}

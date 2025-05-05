@@ -4,12 +4,14 @@
 	inset: 0;
 	z-index: 999;
 	max-height: 6.87rem;
+	transition: background-color var(--transition-main),
+		transform var(--transition-main), opacity var(--transition-main);
 }
 
 .header__main {
 	display: flex;
 	align-items: center;
-	gap: min(10vw, 12.81rem);
+	gap: min(10vw, 10.81rem);
 	position: relative;
 
 	@media (max-width: 48rem) {

@@ -5,6 +5,7 @@
 	--main: #282829;
 	--main-light: #38535d;
 	--main-dark: #222222;
+	--grey: #d6d6d6;
 
 	/* fonts */
 	--arial: 'Arial', sans-serif;
@@ -24,10 +25,13 @@
 	--price-size-small: 1.5rem;
 	--advantages-size-small: 1.1rem;
 
-	/* viewport */
+	/* form */
 
-	--tablet-view: 48rem;
-	--mobile-view: 25rem;
+	--form-title: 3.37rem;
+	--form-title-smaller: 2.5rem;
+	--form-title-400viewport: 2rem;
+	--input-size: 1.5rem;
+	--checkbox-text-size: 1.18rem;
 
 	/* transition */
 
