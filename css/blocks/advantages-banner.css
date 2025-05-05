@@ -1,0 +1,50 @@
+.advantages-banner {
+	padding: 6.25rem 0 6.25rem;
+}
+
+.advantages-banner__main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+
+	@media (max-width: 90rem) {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem 0.62rem;
+	}
+
+	@media (max-width: 48rem) {
+		grid-template-columns: 1fr;
+	}
+}
+
+.advantages-banner__text-block {
+	padding: 0 3.31rem 0 3.31rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.62rem;
+	height: 100%;
+
+	@media (max-width: 90rem) {
+		grid-column: span 2;
+		grid-row: 2 / 3;
+		gap: 2rem;
+	}
+
+	@media (max-width: 56.25rem) {
+		padding: 0 0.62rem 0 0.62rem;
+	}
+}
+
+.advantages-banner__btn {
+	max-width: unset;
+	width: 100%;
+	padding: 1rem 3.12rem 1rem 3.12rem;
+	margin-top: auto;
+}
+
+.advantages-banner__picture-2 {
+	@media (max-width: 48rem) {
+		grid-row: 3;
+	}
+}
