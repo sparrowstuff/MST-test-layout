@@ -21,7 +21,7 @@
 							href="#"
 							aria-label="Go to Main Page"
 						>
-							<span class="main-link__text">Security</span></a
+							Security</a
 						>
 						<nav class="main-nav">
 							<a class="main-nav__link" href="#about" name="About Us"
@@ -115,7 +115,7 @@
 				</div>
 			</section>
 		</article>
-		<section class="advantages-banner" id="advantages">
+		<section class="advantages-banner hidden-block" id="advantages">
 			<div class="advantages-banner__main">
 				<picture class="advantages-banner__picture-1">
 					<source
@@ -125,6 +125,7 @@
 					<img
 						class="advantages-banner__img-1"
 						src="images/advantages/advantages-picture-1.png"
+						srcset="images/advantages/advantages-picture-1@2x.png 2x"
 						alt="Cybersecurity image 1"
 						width="730"
 						height="700"
@@ -210,6 +211,7 @@
 					<img
 						class="advantages-banner__img-2"
 						src="images/advantages/advantages-picture-2.jpg"
+						srcset="images/advantages/advantages-picture-2@2x.jpg 2x"
 						alt="Cybersecurity image 2"
 						width="740"
 						height="700"
@@ -217,7 +219,7 @@
 				</picture>
 			</div>
 		</section>
-		<article class="subscription-form" id="subscribe">
+		<article class="subscription-form hidden-block" id="subscribe">
 			<div class="container">
 				<h2 class="visually-hidden">Subscription form</h2>
 				<form class="subscription-form__form" action="#" method="post">
@@ -272,125 +274,116 @@
 			</div>
 		</article>
 		<footer class="footer">
+			<nav class="main-nav main-nav--footer">
+				<a class="main-nav__link" href="#about" name="About Us">About Us</a>
+				<a class="main-nav__link" href="#advantages" name="Advantages"
+					>Advantages</a
+				>
+				<a class="main-nav__link" href="#" name="Sign Up">Data Protection</a>
+				<a class="main-nav__link" href="#subscribe" name="Sign Up">Subscribe</a>
+			</nav>
 			<div class="container">
-				<div class="footer__main">
-					<nav class="main-nav main-nav--footer">
-						<a class="main-nav__link" href="#about" name="About Us">About Us</a>
-						<a class="main-nav__link" href="#advantages" name="Advantages"
-							>Advantages</a
+				<div class="footer__inner">
+					<div class="footer__top-menu">
+						<a
+							class="footer__main-link main-link"
+							href="#"
+							aria-label="Go to Main Page"
 						>
-						<a class="main-nav__link" href="#" name="Sign Up"
-							>Data Protection</a
+							Security</a
 						>
-						<a class="main-nav__link" href="#subscribe" name="Sign Up"
-							>Subscribe</a
+						<ul class="socials">
+							<li class="socials__item">
+								<a href="#" class="socials__link" aria-label="Our Instagram"
+									><svg
+										class="socials__icon"
+										width="32"
+										height="32"
+										aria-hidden="true"
+									>
+										<use xlink:href="images/sprite.svg#instagram-icon"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link" aria-label="Our TikTok"
+									><svg
+										class="socials__icon"
+										width="32"
+										height="32"
+										aria-hidden="true"
+									>
+										<use xlink:href="images/sprite.svg#tik-tok-icon"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link" aria-label="Our LinkedIn"
+									><svg
+										class="socials__icon"
+										width="32"
+										height="32"
+										aria-hidden="true"
+									>
+										<use xlink:href="images/sprite.svg#linked-in-icon"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link" aria-label="Our Facebook"
+									><svg
+										class="socials__icon"
+										width="32"
+										height="32"
+										aria-hidden="true"
+									>
+										<use xlink:href="images/sprite.svg#facebook-icon"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link" aria-label="Our Telegram"
+									><svg
+										class="socials__icon"
+										width="32"
+										height="32"
+										aria-hidden="true"
+									>
+										<use xlink:href="images/sprite.svg#telegram-icon"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a href="#" class="socials__link" aria-label="Our YouTube"
+									><svg
+										class="socials__icon"
+										width="32"
+										height="32"
+										aria-hidden="true"
+									>
+										<use xlink:href="images/sprite.svg#youtube-icon"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						<button class="footer__btn btn" type="button">Order</button>
+					</div>
+					<div class="footer__bottom-menu">
+						<span class="footer__license">&copy;&nbsp;2024, Copyright</span>
+						<a
+							class="footer__privacy-link"
+							href="#"
+							aria-label="See the Privacy policy"
+							>Privacy policy</a
 						>
-					</nav>
-					<div class="footer__inner">
-						<div class="footer__top-menu">
-							<div class="footer__links-block">
-								<a
-									class="footer__main-link main-link"
-									href="#"
-									aria-label="Go to Main Page"
-								>
-									<span class="main-link__text">Security</span></a
-								>
-							</div>
-							<ul class="socials">
-								<li class="socials__item">
-									<a href="#" class="socials__link" aria-label="Our Instagram"
-										><svg
-											class="socials__icon"
-											width="32"
-											height="32"
-											aria-hidden="true"
-										>
-											<use xlink:href="images/sprite.svg#instagram-icon"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link" aria-label="Our TikTok"
-										><svg
-											class="socials__icon"
-											width="32"
-											height="32"
-											aria-hidden="true"
-										>
-											<use xlink:href="images/sprite.svg#tik-tok-icon"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link" aria-label="Our LinkedIn"
-										><svg
-											class="socials__icon"
-											width="32"
-											height="32"
-											aria-hidden="true"
-										>
-											<use xlink:href="images/sprite.svg#linked-in-icon"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link" aria-label="Our Facebook"
-										><svg
-											class="socials__icon"
-											width="32"
-											height="32"
-											aria-hidden="true"
-										>
-											<use xlink:href="images/sprite.svg#facebook-icon"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link" aria-label="Our Telegram"
-										><svg
-											class="socials__icon"
-											width="32"
-											height="32"
-											aria-hidden="true"
-										>
-											<use xlink:href="images/sprite.svg#telegram-icon"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="socials__item">
-									<a href="#" class="socials__link" aria-label="Our YouTube"
-										><svg
-											class="socials__icon"
-											width="32"
-											height="32"
-											aria-hidden="true"
-										>
-											<use xlink:href="images/sprite.svg#youtube-icon"></use>
-										</svg>
-									</a>
-								</li>
-							</ul>
-							<button class="footer__btn btn" type="button">Order</button>
-						</div>
-						<div class="footer__bottom-menu">
-							<span class="footer__licence">&copy;&nbsp;2024, Copyright</span>
-							<a
-								class="footer__privacy-link"
-								href="#"
-								aria-label="See the Privacy policy"
-								>Privacy policy</a
-							>
-							<a
-								class="footer__terms-link"
-								href="#"
-								aria-label="See the Terms of Use"
-								>Terms of Use</a
-							>
-						</div>
+						<a
+							class="footer__terms-link"
+							href="#"
+							aria-label="See the Terms of Use"
+							>Terms of Use</a
+						>
 					</div>
 				</div>
-				<div class="footer__terms"></div>
 			</div>
 		</footer>
 	</body>

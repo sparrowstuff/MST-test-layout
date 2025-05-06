@@ -3,6 +3,7 @@
 	z-index: 1;
 	position: relative;
 	background-color: var(--main-dark);
+	animation: heroBackgroundFadeIn 1s ease-in forwards;
 
 	@media (max-width: 48rem) {
 		min-height: unset;
@@ -18,7 +19,6 @@
 		background-position-x: right;
 		z-index: -1;
 		transition: opacity var(--transition-main);
-
 		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 
 		@media (max-width: 109.37rem) {

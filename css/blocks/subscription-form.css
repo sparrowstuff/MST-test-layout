@@ -1,6 +1,7 @@
 .subscription-form {
 	padding: 0 0 6.25rem;
-	scroll-margin-top: 2rem;
+	scroll-margin-top: 8rem;
+	transition: opacity var(--transition-main), transform var(--transition-main);
 }
 
 .subscription-form__form {

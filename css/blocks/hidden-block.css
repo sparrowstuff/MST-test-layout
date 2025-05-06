@@ -1,0 +1,5 @@
+.hidden-block {
+	opacity: 0;
+	pointer-events: none;
+	transform: translateX(-3rem);
+}

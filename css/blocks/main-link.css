@@ -1,16 +1,14 @@
 .main-link {
+	font-size: var(--link-size);
+	line-height: 150%;
+	color: var(--white);
+	transition: color var(--transition-main);
 	transition: scale var(--transition-main);
+	max-width: 11.25rem;
 
 	&:hover,
 	&:focus-visible {
 		outline: unset;
 		scale: 1.1;
 	}
-}
-
-.main-link__text {
-	font-size: var(--link-size);
-	line-height: 150%;
-	color: var(--white);
-	transition: color var(--transition-main);
 }

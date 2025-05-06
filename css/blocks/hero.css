@@ -31,6 +31,9 @@
 	font-size: clamp(var(--h1-size-small), 7vw, var(--h1-size-big));
 	line-height: 150%;
 	max-width: 50rem;
+	opacity: 0;
+
+	animation: heroTitleSlideIn 1s ease-in forwards;
 
 	@media (max-width: 48rem) {
 		text-align: center;
@@ -44,6 +47,9 @@
 		var(--hero-description-size-big)
 	);
 	line-height: 120%;
+	opacity: 0;
+
+	animation: heroDescriptionSlideIn 1s ease-in forwards 1s;
 }
 
 .hero__advantages-text,
@@ -78,6 +84,8 @@
 	display: flex;
 	gap: 1.06rem;
 	align-items: center;
+	opacity: 0;
+	animation: heroTextFadeIn 0.8s ease-out 1.5s forwards;
 }
 
 .hero__advantages-text {
@@ -99,4 +107,9 @@
 	@media (max-width: 31.25rem) {
 		font-size: var(--price-size-small);
 	}
+}
+
+.hero__order-btn {
+	opacity: 0;
+	animation: heroBtnFadeIn 1s ease-in-out forwards 2.5s;
 }
